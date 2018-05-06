@@ -54,7 +54,7 @@ def calc(p,length):
     passwd=''
 
     for i in range(length):
-        passwd += p[r.randint(0,x)]
+        passwd += p[r.randint(0,x-1)]
 
     print passwd
 
